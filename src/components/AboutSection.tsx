@@ -4,19 +4,19 @@ const founders = [
   {
     name: "Sarah Chen",
     role: "CEO & Co-Founder",
-    bio: "Former AI Research Lead at Google DeepMind. PhD in Machine Learning from Stanford.",
+    bio: "Former Engineering Director at Google. 15+ years leading elite engineering teams at scale.",
     initials: "SC",
   },
   {
     name: "Marcus Rodriguez",
     role: "CTO & Co-Founder",
-    bio: "Ex-Principal Engineer at OpenAI. 15+ years building scalable AI infrastructure.",
+    bio: "Ex-Principal Engineer at Meta. Expert in high-performance systems and rapid delivery.",
     initials: "MR",
   },
   {
     name: "Elena Vasquez",
     role: "Chief Product Officer",
-    bio: "Previously VP of Product at Stripe. Passionate about AI-first product experiences.",
+    bio: "Previously VP of Engineering at Stripe. Passionate about shipping quality software fast.",
     initials: "EV",
   },
 ];
@@ -34,28 +34,28 @@ const AboutSection = () => {
             About <span className="text-gradient">AscendCore</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            We're on a mission to democratize AI and make intelligent automation accessible to every business
+            A team of elite engineers obsessed with quality, speed, and cutting-edge technology
           </p>
         </div>
 
         {/* Mission, Vision, Values */}
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-20">
-          {[
-            {
-              icon: Target,
-              title: "Our Mission",
-              description: "To empower businesses with AI that amplifies human potential and drives sustainable growth.",
-            },
-            {
-              icon: Eye,
-              title: "Our Vision",
-              description: "A world where intelligent systems work alongside humans to solve the world's most complex challenges.",
-            },
-            {
-              icon: Lightbulb,
-              title: "Our Values",
-              description: "Innovation, integrity, and impact guide everything we do. We build AI that's ethical, transparent, and transformative.",
-            },
+            {[
+              {
+                icon: Target,
+                title: "Our Mission",
+                description: "To deliver exceptional software products that combine uncompromising quality with industry-leading speed.",
+              },
+              {
+                icon: Eye,
+                title: "Our Vision",
+                description: "To redefine what's possible when elite engineering talent meets cutting-edge technology.",
+              },
+              {
+                icon: Lightbulb,
+                title: "Our Values",
+                description: "Excellence, velocity, and innovation. We hire only the best and hold ourselves to the highest standards.",
+              },
           ].map((item) => (
             <div key={item.title} className="text-center p-8 rounded-xl bg-card/30 border border-border/30">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">

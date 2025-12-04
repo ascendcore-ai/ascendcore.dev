@@ -3,33 +3,33 @@ import { Zap, Globe, TrendingUp, Lock, Server, Cpu } from "lucide-react";
 const capabilities = [
   {
     icon: Zap,
-    title: "Real-Time AI Pipelines",
-    description: "Process millions of data points per second with our distributed AI infrastructure.",
+    title: "Rapid Development",
+    description: "We ship quality software at twice the speed—without cutting corners or compromising standards.",
   },
   {
     icon: Globe,
-    title: "Seamless Integrations",
-    description: "Connect with 200+ enterprise tools and platforms out of the box.",
+    title: "Cutting-Edge Stack",
+    description: "Always building with the latest technologies and best practices in the industry.",
   },
   {
     icon: TrendingUp,
-    title: "Predictive Analytics",
-    description: "Leverage machine learning to forecast trends and optimize decisions.",
+    title: "Senior Engineering Team",
+    description: "Every project is handled by highly skilled professionals with 10+ years of experience.",
   },
   {
     icon: Lock,
-    title: "Enterprise Security",
-    description: "SOC 2 Type II certified with end-to-end encryption and compliance.",
+    title: "Production-Grade Quality",
+    description: "Rigorous code reviews, comprehensive testing, and enterprise-level security standards.",
   },
   {
     icon: Server,
-    title: "Infinite Scalability",
-    description: "Auto-scaling infrastructure that grows with your business needs.",
+    title: "Scalable Architecture",
+    description: "Systems designed from day one to handle millions of users with rock-solid reliability.",
   },
   {
     icon: Cpu,
-    title: "Edge Computing",
-    description: "Deploy AI models closer to your data for ultra-low latency processing.",
+    title: "Performance Optimized",
+    description: "Every line of code is optimized for speed, efficiency, and exceptional user experience.",
   },
 ];
 
@@ -43,10 +43,10 @@ const CapabilitiesSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Core <span className="text-gradient">Capabilities</span>
+            Why <span className="text-gradient">AscendCore</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Enterprise-grade features that power the world's most demanding AI applications
+            Quality and speed aren't tradeoffs—they're our standard
           </p>
         </div>
 
