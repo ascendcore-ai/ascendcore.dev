@@ -27,20 +27,20 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-muted/50 border border-border mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm text-muted-foreground">Pioneering the Future of Enterprise AI</span>
+            <span className="text-sm text-muted-foreground">Elite Engineers • Cutting-Edge Tech • Rapid Delivery</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-            Build Intelligent Systems
+            Quality Software
             <br />
-            <span className="text-gradient">Powered by AI</span>
+            <span className="text-gradient">Delivered Fast</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            AscendCore.ai develops cutting-edge AI products that transform how businesses operate. 
-            From intelligent automation to predictive analytics, we deliver solutions that drive efficiency and growth.
+            AscendCore.ai builds cutting-edge software products with elite engineering talent. 
+            We combine speed, precision, and innovation to deliver exceptional solutions that give your business a competitive edge.
           </p>
 
           {/* CTAs */}
@@ -57,9 +57,9 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 mt-20 pt-10 border-t border-border/50 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             {[
-              { value: "500+", label: "Enterprise Clients" },
-              { value: "99.9%", label: "Uptime SLA" },
-              { value: "10B+", label: "Data Points Processed" },
+              { value: "2x", label: "Faster Delivery" },
+              { value: "100%", label: "Senior Engineers" },
+              { value: "50+", label: "Products Shipped" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-2xl sm:text-3xl font-bold text-foreground">{stat.value}</div>

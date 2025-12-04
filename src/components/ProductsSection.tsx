@@ -4,25 +4,25 @@ import { Brain, Workflow, LineChart, Shield, ArrowRight } from "lucide-react";
 const products = [
   {
     name: "NeuralFlow",
-    description: "Intelligent workflow automation that learns and adapts to your business processes in real-time.",
+    description: "Built with precision engineering—intelligent workflow automation delivered at lightning speed without compromising quality.",
     icon: Workflow,
     color: "primary",
   },
   {
     name: "InsightEngine",
-    description: "Advanced predictive analytics platform that transforms raw data into actionable business intelligence.",
+    description: "Cutting-edge analytics platform crafted by senior engineers to transform complex data into clear, actionable insights.",
     icon: LineChart,
     color: "secondary",
   },
   {
     name: "CogniCore",
-    description: "Enterprise-grade AI infrastructure for building and deploying custom machine learning models.",
+    description: "Production-ready AI infrastructure built with enterprise-grade architecture and rigorous code quality standards.",
     icon: Brain,
     color: "accent",
   },
   {
     name: "SecureAI",
-    description: "AI-powered security suite with real-time threat detection and autonomous response capabilities.",
+    description: "High-performance security suite engineered for speed—real-time threat detection built by industry experts.",
     icon: Shield,
     color: "primary",
   },
@@ -38,7 +38,7 @@ const ProductsSection = () => {
             Our <span className="text-gradient">Products</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            A suite of AI-powered solutions designed to accelerate your digital transformation
+            Premium software solutions built by elite engineers—shipped fast, built to last
           </p>
         </div>
 

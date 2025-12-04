@@ -38,10 +38,10 @@ const UseCasesSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            Industry <span className="text-gradient">Use Cases</span>
+            Real <span className="text-gradient">Results</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            See how leading organizations leverage our AI solutions to drive transformational results
+            Quality engineering delivered at speed—see how our products transform businesses
           </p>
         </div>
 
